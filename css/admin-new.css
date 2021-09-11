@@ -1,0 +1,97 @@
+/*
+   Author: CSE327;
+   Theme: Cleaning service Admin;
+   virsion:1.0;
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    color:#009432 ;
+    text-decoration: none;
+  }
+a:hover{
+    color: #20bf6b;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.clearfix{
+     float: none;
+     clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black ;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.menu{
+    background-color: #b8e994;
+    border-bottom: 2px solid #009432;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+   display: inline;
+   padding: 1%;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #009432;
+
+}
+.menu ul li a:hover{
+    color:  #20bf6b;
+}
+/* css for main contain */
+.main-contain{
+  
+    background-color:#f8c291;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #b8e994;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for Footer */
+.footer{
+    background-color: #b8e994;
+    width: 100%;
+  }
+ 
