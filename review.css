@@ -1,0 +1,104 @@
+/*
+   Author: CSE327
+   Theme: Cleaning service
+   virsion:1.0
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:  none ;
+}
+.btn-red{
+    background-color: #EA2027;
+    color:#FFC312;
+    cursor: pointer;
+}
+.btn-red:hover{
+    color:#b8e994;
+    background-color: #EE5A24;
+  }
+.btn2{
+    padding: 1%;
+    margin-left: 2%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+#testimonials{
+     background-color: #fdcb6e;
+     padding: 2%;
+}
+
+.testimonial-box{
+    width: 43%;
+    background-color:#ffeaa7;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+    border-radius: 15px;
+
+}
+
+.name-user{
+    flex-direction: column;
+}
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.name-user span{
+    color: lightslategray;
+    font-size: 0.8rem;
+
+}
+.reviews{
+    color: #f9d71c;
+
+}
+
+.box-top{
+    justify-content:space-between;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9;
+    color: olive;
+
+}
+
+@media(max-width: 1060px)
+{
+    .testimonial-box{
+        width: 45%;
+        padding: 10px;
+    }
+}
+@media(max-width: 790px)
+{
+    .testimonial-box{
+        width: 100%;
+        
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom:10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background: color #252522;    
+}

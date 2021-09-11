@@ -1,0 +1,95 @@
+/*
+   Author: CSE327
+   Theme: Cleaning service
+   virsion:1.0
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:  none ;
+}
+
+.contact-box{
+   width: 320px;
+   float: left;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.float-container{
+    position: relative;
+}
+.card-container{
+    width: 350px;
+    height: 500px;
+    background:#C4E538;
+    margin-top: 1%;
+    margin-left: 16%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+.upper-container{
+
+    height: 180px;
+    background: #FFC312;
+}
+.image-container {
+    background:#A3CB38;
+    width: 128px;
+    height: 120px;
+    border-radius: 15%;
+    margin-right: 10%;
+    padding: 5px;
+    transform: translate(100px, 100px);
+}
+.image-container img{
+    background:#A3CB38 ;
+    width: 125px;
+    height: 120px;
+    border-radius: 15%;
+}
+.lower-container{
+    height: 300px;
+    background: #ff5e57;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.lower-container h3,h4{
+    padding-top: 30px;
+    line-height: 1;
+    font-weight: lighter;
+}
+.lower-container h4{
+        padding-top: 12px;
+        color: #192a56;
+        opacity: 1;
+        font-weight: bold;
+}
+.lower-container p{
+    padding-top: 10px;
+    font-size: 16px;
+    color:darkblue;
+    margin-bottom: 30px;
+}
+.lower-container .btn{
+    padding: 12px 20px;
+    background: #7f00ff;
+    border: none;
+    color:whitesmoke;
+    border-radius: 30px;
+    font-size:  12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7f00ff;
+}
+
